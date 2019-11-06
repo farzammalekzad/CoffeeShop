@@ -24,3 +24,20 @@ header {
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: rgba(247,227,170,1) !important;
 }
+.set {
+    padding: 150px 0px;
+}
+.set h1 {
+    text-align: center;
+    color: #f4f2f0;
+}
+.set p {
+    text-align: center;
+    line-height: 30px;
+}
+.set hr {
+    max-width: 90px;
+    border-color: #3a64a0;
+    border-width: 3px;
+    height: 1px;
+}
