@@ -1,0 +1,26 @@
+body,html {
+    height: 100%;
+}
+.navbar-light {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+header {
+    background-image: url("img/banner.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: floralwhite;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(247,227,170,1)
+}
+.navbar-brand {
+    color: rgba(247,227,170,1) !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(247,227,170,1) !important;
+}

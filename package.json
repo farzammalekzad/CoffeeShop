@@ -1,0 +1,32 @@
+{
+  "name": "coffee",
+  "version": "1.0.0",
+  "description": "Coffee shop web site",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farzammalekzad/CoffeeShop.git"
+  },
+  "keywords": [
+    "system"
+  ],
+  "author": "Farzam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farzammalekzad/CoffeeShop/issues"
+  },
+  "homepage": "https://github.com/farzammalekzad/CoffeeShop#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
