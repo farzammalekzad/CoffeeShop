@@ -1,4 +1,5 @@
 body,html {
+    width: 100%;
     height: 100%;
 }
 .navbar-light {
@@ -24,18 +25,39 @@ header {
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: rgba(247,227,170,1) !important;
 }
-.set {
-    padding: 150px 0px;
-}
 .set h1 {
     text-align: center;
     color: #f4f2f0;
 }
 .set p {
     text-align: center;
-    line-height: 30px;
+    line-height: 2.3em;
 }
 .set hr {
+    max-width: 90px;
+    border-color: #3a64a0;
+    border-width: 3px;
+    height: 1px;
+}
+.section-intro h2 {
+    text-align: center;
+    color: #f4f2f0;
+}
+
+.section-intro p {
+    text-align: center;
+    color: #f4f2f0;
+    line-height: 2.3em;
+}
+.section-intro {
+    background-image: url("img/coffee geed.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-content hr {
     max-width: 90px;
     border-color: #3a64a0;
     border-width: 3px;
